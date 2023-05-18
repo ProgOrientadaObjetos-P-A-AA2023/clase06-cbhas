@@ -13,8 +13,7 @@ public class LibretaCalificacion {
     
     private String estudiante;
     private double promedio;
-    private String promedioCualitativo;
-    
+    private String promedioCualitativo;    
     private Calificacion [] calificaciones; // {new Calificacion(10.2, "Matematicas"), new Calificacion(7.9, "Programación")}
    
     

@@ -5,6 +5,7 @@
  */
 package paquete03;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Ejecutor {
@@ -17,6 +18,7 @@ public class Ejecutor {
         boolean bandera;
         String opcion;
         Scanner entrada = new Scanner(System.in);
+        entrada.useLocale(Locale.US);
         String cadenaFinal;
         // Inicio de proceso iterativo 
         bandera = true;
@@ -60,7 +62,7 @@ public class Ejecutor {
         // cadenaFinal a un archivo
         ArchivoEscritura archivo = new ArchivoEscritura(); // objeto para crear
                                                            // archivo 
-        archivo.establecerNombreArchivo("informacion");
+        archivo.establecerNombreArchivo("Informacion 02");
         archivo.establecerDataFinal(cadenaFinal);
         archivo.agregarRegistros();
     }
