@@ -75,6 +75,8 @@ public class Ejecutor {
                 // que corresponda.
                 Hospital hosp2 = new Hospital(nombreHospital, numeroDeCamas, 
                         numeroDeDoctores);
+                
+                /*Lo que realiza este ejecutor es presentar un mensaje en el cual nos pregunta la tipo de opcion que deseamos ejecutar, y mediante la opcion que ingresemos, el programa procede a recorrer cada uno de los condicionales, para así poder adentrarse a la opcion que ingresamos, por ejemplo, si el usuario ingresa la opcion 1, inmediatamente se va al primer condicional para proceder a ejecutar lo que se encuentra dentro del primer condicional, por ejemplo en el primer condicional nos pide que solo ingresemos cuatro cosas, y esto porque desde el primer constructor asigna un valor determinado. Y si el usuario ingresa una opcion incorrecta se cierra el programa*/
 
                 System.out.printf("Datos Hospital\n"
                         + "Nombre del hospital: %s\n"
